@@ -26,7 +26,7 @@ import java.util.ArrayList;
 
 public class Listar extends AppCompatActivity {
 
-    private final String URLWS = "http://192.168.101.37/WSTienda/app/service/service-producto.php";
+    private final String URLWS = "http://192.168.18.85/WSTienda/app/service/service-producto.php";
 
     RequestQueue requestQueue;
     ListView lstProductos;

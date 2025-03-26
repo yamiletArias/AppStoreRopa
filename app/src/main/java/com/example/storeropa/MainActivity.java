@@ -13,7 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnActRegistrar, btnActListar, btnActBuscar;
+    Button btnActRegistrar, btnActListar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,12 +41,6 @@ public class MainActivity extends AppCompatActivity {
                 openActivity(Listar.class);
             }
         });
-        btnActBuscar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openActivity(Buscar.class);
-            }
-        });
     }
 
     private void openActivity(Class myClass){
@@ -57,6 +51,5 @@ public class MainActivity extends AppCompatActivity {
     private void loadUI(){
         btnActRegistrar = findViewById(R.id.btnActRegistrar);
         btnActListar = findViewById(R.id.btnActListar);
-        btnActBuscar = findViewById(R.id.btnActBuscar);
     }
 }
