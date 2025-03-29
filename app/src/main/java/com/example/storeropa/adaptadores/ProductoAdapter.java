@@ -59,7 +59,7 @@ public class ProductoAdapter extends ArrayAdapter<Producto> {
 
                 String mensaje = "";
                 mensaje += "Tipo de Ropa: " + producto.getTipo() + "\n";
-                mensaje += "Genero: " + producto.getTipo() + "\n";
+                mensaje += "Genero: " + producto.getGenero() + "\n";
                 mensaje += "Talla: " + producto.getTalla() + "\n";
                 mensaje += "Precio: " + producto.getPrecio() + "\n";
                 showModal(mensaje);

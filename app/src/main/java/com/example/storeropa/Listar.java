@@ -26,7 +26,7 @@ import java.util.ArrayList;
 
 public class Listar extends AppCompatActivity {
 
-    private final String URLWS = "http://192.168.18.85/WSTienda/app/service/service-producto.php";
+    private final String URLWS = "http://192.168.18.87/WSTienda/app/service/service-producto.php";
 
     RequestQueue requestQueue;
     ListView lstProductos;
@@ -89,7 +89,7 @@ public class Listar extends AppCompatActivity {
                     genero = "Varón";
                 }
 
-                listaSimple.add(jsonObject.getString("tipo") + " " + genero);
+                listaSimple.add(jsonObject.getString("genero") + " " + genero);
 
                 producto = new Producto();
                 producto.setId(jsonObject.getInt("id"));

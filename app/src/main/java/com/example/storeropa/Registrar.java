@@ -26,7 +26,7 @@ import org.json.JSONObject;
 
 public class Registrar extends AppCompatActivity {
 
-    private final String URLWS = "http://192.168.18.85/WSTienda/app/service/service-producto.php";
+    private final String URLWS = "http://192.168.18.87/WSTienda/app/service/service-producto.php";
 
     RequestQueue requestQueue;
 
